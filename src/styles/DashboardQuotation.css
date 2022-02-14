@@ -1,0 +1,91 @@
+.quotation-card{
+  display: grid;
+  grid-template-columns: 49.5% 49.5%;
+  grid-template-rows: 10vh 75vh;
+  grid-gap: 15px;
+  margin-top: 3%;
+}
+
+.quotation-card > div{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 3%;
+  box-shadow: 8px 5px 10px #0000004f;
+  overflow: auto;
+}
+
+.coin-title{
+  color: var(--green);
+  font-weight: bolder;
+  word-wrap: break-word;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 0  !important;
+  
+}
+
+.coin-title > h3{
+  font: var(--title-b);
+  color: var(--green);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.coin-select0 > select{
+  border: 2px solid var(--green);
+  font-size: 1.5rem;
+  color: var(--black) !important;
+  width: 100%;
+  border-radius: 3px;
+  align-items: right;
+}
+
+.coin-select0 > select:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.number-coin > div > input{
+  border: 2px solid var(--green);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.number-coin > div > div > span{
+  border: 2px solid var(--green);
+  border-left: none;
+  font-size: .93rem;
+  color: var(--black) !important;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.number-coin > div > input:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .quotation-card{
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 10vh 40vh 40vh;
+    grid-gap: 15px;
+    margin-top: 3%;
+  }
+
+  .coin-title{
+
+    word-wrap: break-word;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    
+  }
+}

@@ -1,0 +1,190 @@
+.nav-white  {
+  background-color: var(--white);
+}
+
+.nav-white > div > div > div > a{
+  color: var(--black);
+  font: var(--nav);
+  padding: 0rem 0.2rem 0rem .5rem;
+}
+
+.nav-white > div > div > div > a:hover {
+  text-decoration: none;
+  color: var(--dark-green);
+}
+
+.nav-white > div > form > span {
+  font: var(--bold);
+  color: var(--black);
+  text-align: center;
+}
+
+.nav-white > div > form > a > button{
+  background-color: var(--green) ;
+  color: var(--white);
+  border: none;
+  margin: 0 .5rem 0 .5rem;
+  font: var(--bold);
+  font-size: 1rem;
+}
+
+
+.nav-white > div > form > a > button:hover{
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+.nav-green {
+  background-color: var(--green);
+}
+
+.nav-green > div > div > div > a{
+  color: var(--white);
+  font: var(--nav);
+  padding: 0rem 0.2rem 0rem .5rem;
+}
+
+.nav-green > div > div > div > a:hover {
+  text-decoration: none;
+  color: var(--link-hover);
+}
+
+.nav-green > div > form > span {
+  font: var(--bold);
+  color: var(--white);
+  text-align: center;
+}
+
+.nav-green > div > form > a > button{
+  background-color: var(--white) ;
+  color: var(--green);
+  border: none;
+  margin: 0 .5rem 0 .5rem;
+  font: var(--bold);
+  font-size: 1rem;
+}
+
+
+.nav-green > div > form > a > button:hover{
+  background-color: var(--link-hover);
+  color: var(--green);
+}
+
+/* #mobile-menu, #mobile-menu-item {
+  display: none;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  #desktop-menu-item,
+  #desktop-menu-button {
+    display: none;
+  }
+
+  #mobile-menu-container.active #mobile-menu-item{
+    display: block;
+    opacity: 1;
+    position:absolute;
+    width: 50vw;
+    height: 100vh;
+    top:46px;
+    right: 0;
+    background-color:var(--green);
+    z-index: 1000; 
+    overflow-x: auto;
+    animation: mobile-menu-dropdown-in 1s;
+  }
+
+  #mobile-menu-container.deactive #mobile-menu-item{
+    display: block;
+    opacity: 0;
+    position:absolute;
+    width: 0vw;
+    top:46px;
+    height: 100vh;
+    right: 0;
+    background-color:var(--green);
+    z-index: 1000; 
+    overflow-x: auto;
+    animation: mobile-menu-dropdown-out 1s;
+  }
+
+  #mobile-menu-item a{
+    text-decoration: none;
+    color: var(--white);
+    font: var(--nav);
+  }
+
+  #mobile-menu-item li{
+    padding: 1rem 0;
+    list-style: none;
+  }
+
+  #mobile-menu {
+    display: flex;
+    padding: .5rem;
+    border: none;
+    font-size: 1rem;
+    background: none;
+    gap: .5rem;
+  }
+
+  #mobile-menu > span {
+    width: 20px;
+    border-top: 2px solid;
+    color: var(--white)
+  }
+
+  #mobile-menu > span::after, #mobile-menu > span::before{
+    content: '';
+    display: block;
+    width: 20px;
+    margin-top: 5px;
+    height: 2px;
+    background: currentColor;
+    transition: 1s;
+    position: relative;
+  }
+
+  #mobile-menu-container.active #mobile-menu > span{
+    border-top-color: transparent ;
+  }
+
+  #mobile-menu-container.active #mobile-menu > span::before{
+    transform:rotate(135deg);
+  }
+
+  #mobile-menu-container.active #mobile-menu > span::after{
+    transform:rotate(-135deg);
+    top: -7px;
+  }
+
+  #mobile-menu-container.deactive #mobile-menu > span{
+    border-top-color: var(--white)  ;
+  }
+}
+
+@keyframes mobile-menu-dropdown-in {
+  from{
+    width: 0;
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    width: 50vw;
+  }
+}
+
+@keyframes mobile-menu-dropdown-out {
+  from{
+    width: 50vw;
+    opacity: 1;
+  }
+  to{
+    width: 0;
+    opacity: 0;
+  }
+} */

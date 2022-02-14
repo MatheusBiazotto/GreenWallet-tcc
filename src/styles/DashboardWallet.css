@@ -1,0 +1,447 @@
+.container-wallet {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 95% ;
+  grid-template-rows: 96vh ;
+  align-content: center ;
+}
+
+.container-wallet.open{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 65% 30%;
+  grid-template-rows: 96vh ;
+  align-content: center ;
+  grid-gap: 15px;
+  transition: all 0.5s ease;
+}
+
+.edit-card{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 4%;
+  box-shadow: 8px 5px 10px #0000004f;
+  margin-top: 4%;
+}
+
+.wallet-card{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 3%;
+  box-shadow: 8px 5px 10px #0000004f;
+  margin-top: 2%;
+  overflow: auto;
+}
+
+.header-wallet{
+  display: grid;
+  grid-template-columns: 73% 30%;
+}
+
+.header-wallet > button{
+  background-color: var(--white);
+  border:none;
+  font: var(--title-b);
+  color: var(--black);
+  width: 40%;
+  justify-self: end;
+}
+
+.header-wallet > button:hover{
+  color: var(--gray);
+  background-color: var(--white);
+}
+
+.header-wallet > button:focus{
+  outline: none;
+  box-shadow: none;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.header-wallet > h2{
+  color: var(--green);
+  font-weight: bolder;
+}
+
+.header-wallet > i{
+  font: var(--title-b);
+  text-align: right;
+  cursor: pointer;
+}
+
+.hr-wallet {
+  background-color: var(--light-gray);
+  height: 2px;
+  margin: .5rem 0 1rem 0;
+}
+.hw-wallet {
+  background-color: var(--light-gray);
+  width: 3px;
+  text-align: center;
+  justify-self: center;
+}
+
+.spent-card{
+  color: var(--white);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  justify-content: center;
+  grid-gap: 15px;
+}
+
+.spent-card > div {
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 8px 5px 10px #0000004f; 
+  word-wrap: break-word;
+}
+
+.spent-card > div > h5 {
+  font-weight: bolder;
+}
+
+.spent-card1{
+  background-color: var(--purple);
+}
+
+.spent-card2{
+  background-color: var(--yellow);
+}
+
+.spent-card3{
+  background-color: var(--green);
+}
+
+.spent-card4{
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.spent-card4:hover{
+  background-color: var(--dark-purple);
+}
+
+.spent-card1 > div,
+.spent-card2 > div,
+.spent-card3 > div,
+.spent-card4 > div{
+  border: 0 none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+}
+
+.btn-spent > button{
+  font: var(--bold);
+  margin: 2% 0% 1% 1%;
+  width: 48.5%;
+}
+
+.wallet-view{
+  display: grid;
+  grid-template-columns: 47.7% 5% 47.5%;
+}
+
+.spents-card > div{
+  padding: 2%; 
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin-bottom: 3%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 4.5vh 4.5vh 4.5vh 4.5vh;
+  word-wrap: break-word;
+}
+
+.spents-card > div:hover{
+  background-color: var(--link-hover);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.profits-card > div{
+  padding: 2%; 
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin-bottom: 3%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 4.5vh 4.5vh;
+  word-wrap: break-word;
+}
+
+.profits-card > div:hover{
+  background-color: var(--link-hover);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.modal-add-profit{
+  color: var(--green);
+  font-weight: bolder !important;
+}
+.modal-add-spent{
+  color: var(--red);
+  font-weight: bolder !important;
+}
+
+#contained-modal-title-vcenter-1{
+  color: var(--red);
+  font-weight: bolder;
+}
+
+#contained-modal-title-vcenter-2{
+  color: var(--purple);
+  font-weight: bolder;
+}
+
+.addSpentModal > div > div > input,
+.addSpentModal > div > input{
+  border: 2px solid var(--green);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  padding: .5rem;
+  padding-top: 1rem;
+  border-radius: 3px;
+}
+
+.addSpentModal > div > input{
+  padding-top: .5rem !important;
+}
+
+.addSpentModal > div > div > input:focus,
+.addSpentModal > div > select:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.addSpentModal > div > select{
+  border: 2px solid var(--green);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  height: 3rem;
+}
+
+.attLimitModal > div > input{
+  border: 2px solid var(--purple);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+}
+
+.attLimitModal > div > input:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.edit-header{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: var(--red);
+  font: var(--header);
+}
+
+.edit-header > div > i{
+  cursor:pointer
+}
+
+.edit-trash{
+  justify-self: end;
+}
+
+.non-spent-list-item{
+  color: var(--gray);
+  font: var(--title-b);
+  text-align: center;
+}
+
+.spent-list-item{
+  color: var(--black);
+}
+
+.edit-form{
+  display: grid;
+  grid-template-rows: 77vh 5vh;
+}
+
+.edit-form > div > h4 {
+  margin: 5% 0 5% 0;
+  font: var(--header);
+  color: var(--purple);
+}
+
+.edit-form > div > div > input {
+  border: 0 none;
+  border-bottom: 2px solid var(--purple);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  padding: .5rem;
+  padding-top: 1rem;
+}
+
+.edit-form > div > div > input{
+  padding-top: .5rem;
+}
+
+.edit-form > div > div > select{
+  border: 0 none;
+  border-bottom: 2px solid var(--purple);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  height: 3rem;
+}
+
+.edit-form > div > div > input:focus,
+.edit-form > div > div > select:focus{
+  border: 0 none;
+  border-bottom: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.edit-form > div > button{
+  width: 100%;
+}
+
+.spent-list-ok > span#erroAoGerarSpentList{
+  display: none;
+}
+
+.spent-list-ok > span#nenhumGasto{
+  display: none;
+}
+
+.spent-list-error > span#erroAoGerarSpentList{
+  display: block;
+}
+
+.spent-list-error > span#nenhumGasto{
+  display: none;
+}
+
+.spent-list-none > span#erroAoGerarSpentList{
+  display: none;
+}
+
+.spent-list-none > span#nenhumGasto{
+  display: block;
+}
+
+.profit-list-ok > span#erroAoGerarProfitList{
+  display: none;
+}
+
+.profit-list-ok > span#nenhumLucro{
+  display: none;
+}
+
+.profit-list-error > span#erroAoGerarProfitList{
+  display: block;
+}
+
+.profit-list-error > span#nenhumLucro{
+  display: none;
+}
+
+.profit-list-none > span#erroAoGerarProfitList{
+  display: none;
+}
+
+.profit-list-none > span#nenhumLucro{
+  display: block;
+}
+
+@media (max-width: 767px) {
+  #panel{
+    font-size: .6rem;
+  }
+
+  .container-wallet{
+    grid-template-columns: 90%;
+    grid-template-rows: 96vh ;
+    grid-gap: 3px;
+    align-content: center;
+  }
+
+  .container-wallet.open{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 50vh 49vh;
+    align-content: center ;
+    grid-gap: 5px;
+    transition: all 0.5s ease;
+  }
+
+  .header-wallet{
+    display: grid;
+    grid-template-columns: 70% auto;
+  }
+  
+  .header-wallet > button{
+    background-color: var(--white);
+    border:none;
+    font: var(--title-b);
+    color: var(--black);
+    width: 40%;
+    justify-self: end;
+  }
+
+  .edit-form {
+    display: grid;
+    grid-template-rows: 65vh 5vh;
+  }
+
+  .edit-card{
+    overflow: auto;
+    margin-bottom: 5%;
+  }
+
+  .spent-card{
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 15vh 15vh;
+  }
+
+  .btn-spent > button{
+    font: var(--bold);
+    margin: 4% 2% 2% 0%;
+    width: 100%;
+  }
+
+  .spents-card > div{
+    padding: 3% 0 3% 3%; 
+    grid-gap: 15px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1.5vh 1.5vh auto 3vh;
+    font: 500 1rem "Poppins", sans-sarif normal;
+    word-wrap: break-word;
+  }
+  
+  .spents-card > div > h4{
+    font-weight: bolder;
+    justify-content: left;
+  }
+
+  .profits-card > div{
+    padding: 3% 0 3% 3%; 
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1.5vh 3vh;
+    font: 500 1rem "Poppins", sans-sarif normal;
+    word-wrap: break-word;
+  }
+}

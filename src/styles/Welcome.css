@@ -1,0 +1,276 @@
+.welcome-card-1 {
+  padding: 3rem 1rem 5rem 5rem;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+#img-card-1 {
+  width: 34vw;
+  height: auto;
+}
+
+.welcome-card-1 > div > div > p {
+  font-size: 0.5rem;
+  font: var(--normal);
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.welcome-card-1 > div > div > a > button {
+  background-color: var(--green) ;
+  color: var(--white);
+  border: none;
+  margin: 0 .5rem 0 5%;
+  font: var(--bold);
+  font-size: 1rem;
+  -webkit-transition: 0.6s;
+}
+
+.welcome-card-1 > div > div > a > button:hover{
+  background-color: var(--dark-green) ;
+  -webkit-transition: 0.6s;
+}
+
+.welcome-card-1 > div > div > h1 {
+  margin-top: 9vw;
+  font: 700 2.5rem "Poppins", sans-sarif bolder;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.welcome-card-2 {
+  padding: 3rem 0rem 3rem 0rem;
+  color: var(--white);
+  background-color: var(--green);
+  text-align: center;
+  font: var(--title-b)
+}
+
+.welcome-card-2 > h4 {
+  font: var(--title-b)
+}
+
+.welcome-card-3 {
+  padding: 3rem 0rem 3rem 0rem;
+  color: var(--black);
+  background-color: var(--white);
+  text-align: justify;
+}
+
+#img01{
+  width: 35vw;
+  padding: 2rem 0 2rem 2rem ;
+}
+
+.welcome-card-3 > .video-player{
+  padding: 3rem 23vw 3rem 23vw;
+}
+
+.welcome-card-3 > h4 {
+  margin-left: 23vw;
+  margin-right: 23vw;
+  font: var(--title-b);
+}
+
+.welcome-card-3 > img {
+  width: 40vw;
+  height: auto;
+  margin: 0 0 0 30vw;
+}
+
+.welcome-card-3 > .hr {
+  margin: 2% 25vw 2% 25vw;
+  height: 3px;
+  size: 10px;
+  background: var(--link-hover);
+}
+
+.welcome-card-3 > .text {
+  margin: 0 23vw 0 23vw;
+}
+
+.welcome-card-4 {
+  padding: 1rem 4.5rem 3rem 4.5rem;
+  color: var(--white);
+  background-color: var(--green);
+  text-align: center; 
+}
+
+.welcome-card-4 > div > h4 {
+  font: var(--title-b);
+}
+
+.welcome-card-4 > div{
+  margin-top: 5%;
+  font: var(--normal)
+}
+
+.welcome-card-4 > a > button{
+  background-color: var(--white) ;
+  color: var(--green);
+  border: none;
+  margin: 3rem .5rem 0 5%;
+  font: var(--bold);
+  font-size: 1rem;
+  text-decoration: none;
+  -webkit-transition: 0.6s;
+}
+
+.welcome-card-4 > a > button:hover {
+  background-color: var(--link-hover);
+  color: var(--green);
+  text-decoration: none;
+  -webkit-transition: 0.6s;
+}
+
+#img-card-2{
+  width: 20vw;
+  height: auto;
+}
+
+#text-card{
+  margin-left: 23vw;
+  margin-right: 23vw;
+  text-align: justify;
+}
+
+.welcome-card-5 {
+  padding: 3rem 0rem 2rem 0rem;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  text-align: center;
+  font: var(--normal)
+}
+
+.welcome-card-5 > h3 {
+  font:var(--title)
+}
+
+.welcome-form-faq{
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 10px;
+  width: 70vw;
+  text-align: right;
+  padding: 4%;
+  margin: auto;
+  box-shadow: 8px 5px 10px #0000004f;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.welcome-form-faq > form > div > input,
+.welcome-form-faq > form > div > div > textarea {
+  border: 2px solid var(--purple);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+}
+
+.welcome-form-faq > form > div > input:focus,
+.welcome-form-faq > form > div > div > textarea:focus {
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.welcome-form-faq > form > button {
+  -webkit-transition: 0.6s;
+  background-color: var(--purple);
+  font: var(--bold);
+  border: 2px solid var(--purple);
+}
+
+.welcome-form-faq > form > button:hover {
+  -webkit-transition: 0.6s;
+  font: var(--bold);
+  background-color: var(--dark-purple);
+  border: 2px solid var(--dark-purple);
+}
+
+.welcome-form-faq > form > button:focus {
+  outline: none;
+  box-shadow: none;
+  color: var(--white);
+  background-color: var(--purple);
+  border: 2px solid var(--purple);
+}
+
+@media (max-width: 767px) {
+  #text-card{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #img-card-2{
+    width: 40vw;
+    height: auto;
+  }
+  #img-card-1{
+    width: 80vw;
+    height: auto;
+  }
+
+  .welcome-card-1 > div > div > h1 {
+    margin-top: 4vw;
+    margin-left: 0%;
+  }
+
+  .welcome-card-1 {
+    text-align: justify;
+  }
+
+  .welcome-card-1 > div > div > a > button {
+    width: 85%;
+  }
+
+  .welcome-card-2 {
+    padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .welcome-card-3 {
+    padding: 3rem 5rem 0 5rem;
+  }
+
+  .welcome-card-3 > h4 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  .welcome-card-3 > .video-player{
+    padding: 3rem 0rem 3rem 0rem;
+  }
+  
+  .welcome-card-3 > img {
+    width: 60vw;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+  
+  .welcome-card-3 > .hr {
+    margin: 5% 6vw 5% 6vw;
+    height: 3px;
+    size: 10px;
+    background: var(--link-hover);
+  }
+  
+  .welcome-card-3 > .text {
+    margin: 0 0 0 0;
+    text-align: justify;
+  }
+
+  .welcome-form-faq{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .welcome-card-5 > h3, .welcome-card-5 > h6 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

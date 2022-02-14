@@ -1,0 +1,28 @@
+footer{
+  background-color: var(--dark-purple);
+  font: var(--bold);
+  color: var(--white);
+}
+
+.footer-link{
+  width: "5rem";
+  background: var(--white); 
+  text-align: "center"
+}
+
+#linksFooter > p > a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+.linksFooter > p > a:hover{
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-icon{
+  color: var(--white);
+  font-size: 2.5rem;
+  margin-right: 1%;
+  margin-top: 1%;
+}

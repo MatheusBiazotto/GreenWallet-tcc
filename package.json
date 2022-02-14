@@ -1,0 +1,48 @@
+{
+  "name": "gw-greenwallet-reactjs-dev",
+  "version": "0.3.4",
+  "private": false,
+  "engines": {
+    "node": "14.17.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.3",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "node-fetch": "^2.6.1",
+    "package.json": "^2.0.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-floating-label": "^1.6.0",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-dom": "^17.0.2",
+    "react-google-charts": "^3.0.15",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

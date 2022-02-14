@@ -1,0 +1,53 @@
+.settings-card{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1.5% 3%;
+  box-shadow: 8px 5px 10px #0000004f;
+  margin-top: 2%;
+  overflow: auto;
+}
+
+.settings-title{
+  color: var(--green);
+  font-weight: bolder;
+  margin-bottom: .5rem;
+  word-wrap: break-word;
+  margin-top: 0;
+}
+
+.settings-check > div > div  {
+background-color: var(--light-gray);
+border-radius: 10px;
+padding: 4%;
+width: 8.2rem;
+}
+
+.settings-save{
+  width: 100%;
+  font-weight: bold;
+}
+
+.settings-input > div > input{
+  border: 2px solid var(--green);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.settings-input > div > div > span{
+  border: 2px solid var(--green);
+  border-left: none;
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 3px;
+}
+
+.settings-input > div > input:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}

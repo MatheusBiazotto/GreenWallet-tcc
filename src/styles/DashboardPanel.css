@@ -1,0 +1,207 @@
+.container-panel {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-template-rows: auto 76vh;
+  grid-gap: 15px;
+  align-content: center ;
+}
+
+.hr-panel {
+  background-color: var(--light-gray);
+  height: 2px;
+  margin: .5rem 1rem 0rem 1rem;
+}
+
+.panel-card{
+  text-align: center;
+  border-radius: 10px;
+  padding: 6.5%;
+  box-shadow: 8px 5px 10px #0000004f;
+  margin-top: 5%; 
+  color: var(--white);
+  word-wrap: break-word;
+}
+
+.panel-card-1 {
+  background-color: var(--purple); 
+}
+
+.panel-card-2{
+  background-color: var(--yellow); 
+}
+
+.panel-card-3{
+  background-color: var(--green); 
+}
+
+.panel-card-4{
+  background-color: var(--purple); 
+  cursor: pointer;
+}
+
+.panel-card-4:hover{
+  background-color: var(--dark-purple); 
+}
+
+.panel-card-1 > h5,
+.panel-card-1 > div,
+.panel-card-2 > h5, 
+.panel-card-2 > div,
+.panel-card-3 > h5,
+.panel-card-3 > div,
+.panel-card-4 > h5,
+.panel-card-4 > div{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.spents-card > a{
+  padding: 2%; 
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin-bottom: 3%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto 4.5vh;
+  word-wrap: break-word;
+  text-decoration: none !important;
+  color: var(--black);
+}
+
+.spents-card > a:hover{
+  background-color: var(--link-hover);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.profits-card > a{
+  padding: 2%; 
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin-bottom: 3%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 4.5vh 4.5vh;
+  word-wrap: break-word;
+  text-decoration: none !important;
+  color: var(--black);
+}
+
+.profits-card > a:hover{
+  background-color: var(--link-hover);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.view-card{
+  display: grid;
+  grid-template-columns: 47.7% 5% 47.5%;
+  border-radius: 10px;
+  padding: 4%;
+}
+
+.recent-wallet{
+  grid-column-start: 3;
+  grid-column-end:  5;
+  overflow: auto;
+  box-shadow: 8px 5px 10px #0000004f;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.recent-wallet > h3{
+  color: var(--green);
+  font-weight: bolder;
+  padding: 3% 3% 0% 3%;
+}
+
+.content-card{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 3% 4%;
+  box-shadow: 8px 5px 10px #0000004f;
+  grid-column-start: 1;
+  grid-column-end: 3 ;
+  overflow: auto;
+}
+
+.panel-chart-title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.75rem;
+  color: var(--green);
+  margin-top: .5rem;
+}
+
+.panel-chart-btn > button{
+  font: var(--bold);
+  margin: 0% 0% .5rem 1%;
+  width: 48.5%;
+  background-color: var(--green);
+  border: none;
+}
+
+.panel-chart-btn > button:hover{
+  background-color:  var(--dark-green);
+}
+
+.panel-chart-btn > button:focus{
+  background-color: var(--dark-green);
+  outline: none;
+  box-shadow:  var(--dark-green);
+}
+
+@media (max-width: 767px) {
+  .container-panel{
+    grid-template-columns: 85%;
+    grid-template-rows: 20vh 15vh 15vh 15vh 45vh 45vh;
+    grid-gap: 10px;
+    align-content: center;
+  }
+
+  .panel-card{
+    text-align: center;
+    border-radius: 10px;
+    padding: 5%;
+    box-shadow: 8px 5px 10px #0000004f;
+    margin-top: 0; 
+    color: var(--white);
+    word-wrap: break-word;
+  }
+
+  .content-card{
+    grid-column-start: 1;
+    grid-column-end: 1 ;
+    margin-top: 3%; 
+  }
+
+  .panel-card-1 {
+    padding: 2rem;
+    margin-top: 3%; 
+  }
+
+  .graph{
+    height: 25rem !important;
+  }
+
+  .view-card{
+    margin-top: 3%; 
+    margin-bottom: 5%; 
+    grid-column-start: 1;
+    grid-column-end: 1 ;
+    font: 500 1rem "Poppins", sans-sarif normal;
+  }
+
+  .recent-wallet{
+    grid-column-start: 1;
+    grid-column-end:  1;
+    overflow: auto;
+    margin-top: 3%;
+    margin-bottom: 5%; 
+  }
+  
+}

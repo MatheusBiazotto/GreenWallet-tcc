@@ -1,0 +1,141 @@
+.history-card{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 48vh 46vh;
+  grid-gap: 15px;
+}
+
+.history-card > div{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1.5% 3%;
+  box-shadow: 8px 5px 10px #0000004f;
+  margin-top: 2%;
+  overflow: auto;
+}
+
+.header-history{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 6vh;
+}
+
+.header-history > h3{
+  color: var(--green);
+  font-weight: bolder !important;
+  margin-bottom: .5rem;
+  word-wrap: break-word;
+}
+  
+
+.history-card > div > h3{
+  color: var(--green);
+  font-weight: bolder;
+  margin-bottom: .5rem;
+  word-wrap: break-word;
+  margin-top: 0;
+}
+
+.history-spent-card{
+  color: var(--white);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 15vh;
+  justify-content: center;
+  grid-gap: 15px;
+}
+
+.history-spent-card > div {
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 8px 5px 10px #0000004f; 
+  word-wrap: break-word;
+}
+
+.history-spent-card > div > h5 {
+  font-weight: bolder;
+}
+
+.history-spent-card1{
+  background-color: var(--yellow);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.history-spent-card2{
+  background-color: var(--green);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hr-history{
+  background-color: var(--light-gray);
+  height: 2px;
+  margin: .5rem 0 0 0;
+}
+
+.history-select{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.history-select > div > select{
+  width: 80%;
+}
+
+.selects-history{
+  display: grid;
+  grid-template-columns: 40% 1% 40% 20%;
+  grid-template-rows: 5.8vh;
+  justify-content: center;
+}
+
+.selects-history > select{
+  border: 2px solid var(--green);
+  font-size: 1rem;
+  color: var(--black) !important;
+  width: 100%;
+  border-radius: 3px;
+  align-items: right;
+}
+
+.left-select{
+  margin-left: 19%;
+}
+
+.right-select{
+  margin-left: 0%;
+}
+
+.selects-history > select:focus{
+  border: 2px solid var(--black);
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.selects-history > span{
+  margin-top: 50%;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .history-card{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30vh 30vh 30vh;
+    grid-gap: 15px;
+    word-wrap: break-word;
+  }
+
+  .history-select{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  
+  .right-select{
+    margin-left: 3%;
+  }
+}
+

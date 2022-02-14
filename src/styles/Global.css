@@ -1,0 +1,77 @@
+:root {
+  /* Paleta de Cores */
+
+  --white:#fff;  
+  --green: #4CAF50;
+  --light-green: #29c22e;
+  --dark-green: #29802c;
+  --purple: #841ded;
+  --light-purple: #9c51e7;
+  --card-purple: #7f00ff;
+  --dark-purple:#59139e;
+  --dark-blue: #0E284B;
+  --red: #ff0000;
+  --black: #000;
+  --gray: #1d1d1d;
+  --light-gray: #e6e6e6;
+  --link-mobile-border: #1d1d1d7c;
+  --link-hover: #ccc;
+  --background: #f5f1fd;
+  --yellow: #e2c626;
+  --dashboard-background: #C0C0C0;
+  /* Font Size */
+
+  --normal: 400 1rem 'Poppins', sans-sarif;
+  --nav: 600 1.15rem 'Poppins', sans-sarif bolder;
+  --bold: 600 1rem 'Poppins', sans-sarif bold;
+  --header: 600 1.5rem 'Poppins', sans-sarif bolder;
+  --title: 600 2rem 'Poppins', sans-sarif bolder;
+  --title-b: 700 1.5rem 'Poppins', sans-sarif bolder;
+}
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+  /* CSS Barra de Rolagem */
+  scrollbar-width: thin;
+  scrollbar-color: var(--white);  
+}
+
+*html{
+    scroll-behavior: smooth;
+}
+
+::selection{
+  background: var(--light-purple);
+  color:var(--white);
+  border: none;
+}
+
+body {
+  background-color: var(--background);
+}
+
+button{
+  cursor: pointer;
+}
+
+body, button, input{
+  font: var(--normal);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--link);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+  border-radius: 20px;
+  border: 3.5px solid var(--white);
+}
